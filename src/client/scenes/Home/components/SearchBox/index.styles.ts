@@ -2,15 +2,15 @@ import styled from 'styled-components';
 
 export const DivSearchBox: any = styled.div`
   width: 20%;
-  height: 140px;
+  height: 170px;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10), 0 1px 8px 0 rgba(0,0,0,0.10);
   padding: 16px;
   position: absolute;
   z-index: 1000;
-  top: 120px;
-  left: 32px;
+  top: 60px;
+  left: 20px;
 `;
 
 export const Button: any = styled.button`

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Map from '../Map';
 import Marker from '../Marker';
-import SearchBox from './components/SearchBox';
+import SearchBox from '../SearchBox';
 import * as S from './index.styles';
-
 
 const defaultZoom: number = 13;
 const initialCenter = {
@@ -46,7 +45,6 @@ class Container extends Component<any, any> {
     !this.state.hideToaster && setTimeout(() => this.setState({hideToaster: true}), 5000)
 
     return <div>
-      <h3>Google Maps</h3>
       <S.DivToaster
         hide={this.state.hideToaster}
         onClick={this.toggleToaster}
